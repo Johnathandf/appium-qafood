@@ -1,0 +1,99 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language: pt"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15388017500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.startProject()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Pedido com sucesso",
+        "description": "",
+        "id": "realizar--pedido-no-app;pedido-com-sucesso",
+        "type": "scenario",
+        "keyword": "Cenário",
+        "steps": [
+          {
+            "result": {
+              "duration": 6453650083,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "que eu realizo login com sucesso",
+            "match": {
+              "location": "LoginSteps.que_eu_realizo_login_com_sucesso()"
+            },
+            "keyword": "Dado "
+          },
+          {
+            "result": {
+              "duration": 5003442833,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "eu adicione um produto no carrinho",
+            "match": {
+              "location": "PedidoSteps.eu_adicione_um_produto_no_carrinho()"
+            },
+            "keyword": "E "
+          },
+          {
+            "result": {
+              "duration": 5331618666,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "eu preencher as informações do pedido",
+            "match": {
+              "location": "PedidoSteps.eu_clicar_em_confirmar_pedido()"
+            },
+            "keyword": "Quando "
+          },
+          {
+            "result": {
+              "duration": 651247958,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "devo ser redirecionado para tela de confirmação de pedido",
+            "match": {
+              "location": "PedidoSteps.devo_ser_redirecionado_para_tela_de_confirmação_de_pedido()"
+            },
+            "keyword": "Então "
+          }
+        ],
+        "tags": [
+          {
+            "line": 9,
+            "name": "@pedidoSuccess"
+          }
+        ]
+      }
+    ],
+    "name": "Realizar  Pedido No APP",
+    "description": "Como um usuário registrado\nEu quero fazer pedido no aplicativo",
+    "id": "realizar--pedido-no-app",
+    "keyword": "Funcionalidade",
+    "uri": "pedido.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@pedido"
+      }
+    ]
+  }
+]

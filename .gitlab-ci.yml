@@ -1,0 +1,9 @@
+image: docker.io/qazando/appium-maven
+
+stages:          # List of stages for jobs, and their order of execution
+  - test
+
+test-job:       # This job runs in the build stage, which runs first.
+  stage: test
+  script:
+    - mvn test -Dcucumber.options="--tags @login-sucesso-2" -Dplataforma=devicefarm
