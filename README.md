@@ -1,7 +1,7 @@
 
 ## Introdução
 
-Este é um projeto de automação de testes que demonstra como realizar testes em aplicativos móveis usando Java, Appium e Cucumber, com o ambiente de desenvolvimento configurado no IntelliJ IDEA. O projeto foi projetado para executar cenários de teste automatizados em aplicativos móveis.  
+Este é um projeto de automação de testes que demonstra como realizar testes em aplicativos móveis usando Java, Appium e Cucumber, com o ambiente de desenvolvimento configurado no IntelliJ IDEA. O projeto foi projetado para executar cenários de teste automatizados em aplicativos mobile Andfroid e iOS.  
 
 
 ## Pré-requisitos
@@ -30,6 +30,10 @@ Configure a configuração do Appium:
 
 Atualize o endereço do servidor Appium e as capacidades desejadas no código de teste ou use arquivos de configuração conforme necessário para se conectar ao seu dispositivo móvel.
 Certifique-se de que o emulador Android ou o dispositivo real esteja conectado e configurado corretamente com os drivers necessários.  
+
+## Ferramentas Necessárias para criar os emuladores
+Android Studio - Emulador 
+Xcode - Simulador - Somente é possivel rodar no macOS
 
 
 ## Executando os Testes
