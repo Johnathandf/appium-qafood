@@ -32,7 +32,9 @@ Atualize o endereço do servidor Appium e as capacidades desejadas no código de
 Certifique-se de que o emulador Android ou o dispositivo real esteja conectado e configurado corretamente com os drivers necessários.  
 
 ## Ferramentas Necessárias para criar os emuladores
-Android Studio - Emulador 
+Android Studio - Emulador
+
+
 Xcode - Simulador - Somente é possivel rodar no macOS
 
 
