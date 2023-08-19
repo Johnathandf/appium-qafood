@@ -33,6 +33,7 @@ Certifique-se de que o emulador Android ou o dispositivo real esteja conectado e
 
 ## Ferramentas Necessárias para criar os emuladores
 Android Studio - Emulador
+
 Xcode - Simulador - Somente é possivel rodar no macOS
 
 
