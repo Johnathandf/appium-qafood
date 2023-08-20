@@ -34,7 +34,8 @@ Certifique-se de que o emulador Android ou o dispositivo real esteja conectado e
 ## Ferramentas Necessárias para criar os emuladores
 Android Studio - Emulador
 
-Xcode - Simulador - Somente é possivel rodar no macOS
+Xcode - Simulador - Somente é possivel rodar no macOS - Verificar a configuração do WebdriverAgent com erro code 65
+Se der erro seguir o tutorial a seguir: https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md
 
 
 ## Executando os Testes
