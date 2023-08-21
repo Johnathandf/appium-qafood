@@ -14,6 +14,8 @@ Appium: Instale e configure o Appium para interagir com dispositivos móveis.
 Android SDK: Certifique-se de ter o Android SDK instalado e configurado.
 Emulador Android ou Dispositivo Real: Tenha um emulador Android ou um dispositivo real conectado ao sistema para testes.
 Configuração
+Xcode: Simulador iOS ou Dispositivo Real: Tenha um emulador Android ou um dispositivo real conectado ao sistema para testes.
+Configuração
 Clone este repositório em sua máquina local.
 
 Abra o IntelliJ IDEA e importe o projeto selecionando "Importar Projeto" e escolhendo o diretório do projeto.
