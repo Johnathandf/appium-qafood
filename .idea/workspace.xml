@@ -7,11 +7,12 @@
     <list default="true" id="8ff2434a-d088-41e6-be1d-f561a96c3da0" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/test/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/RunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/RunTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/screen/ScreenLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/screen/ScreenLogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/test/screen/ScreenPedido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/test/screen/ScreenPedido.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/cucumberTestes.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/cucumberTestes.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/reports/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/reports/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/Hooks.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/Hooks.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/RunTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/RunTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/test/screen/ScreenLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/test/screen/ScreenLogin.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +55,9 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.test" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/apps/novo" />
     </key>
@@ -71,7 +75,7 @@
       <option name="MAIN_CLASS_NAME" value="com.test.RunTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea -Dplataforma=android" />
+      <option name="VM_PARAMETERS" value="-ea -Dplataforma=ios" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>

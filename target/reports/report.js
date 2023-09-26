@@ -19,7 +19,7 @@ formatter.feature({
   ]
 });
 formatter.before({
-  "duration": 15388017500,
+  "duration": 10236460292,
   "status": "passed"
 });
 formatter.scenario({
@@ -60,28 +60,28 @@ formatter.match({
   "location": "LoginSteps.que_eu_realizo_login_com_sucesso()"
 });
 formatter.result({
-  "duration": 6453650083,
+  "duration": 7717997458,
   "status": "passed"
 });
 formatter.match({
   "location": "PedidoSteps.eu_adicione_um_produto_no_carrinho()"
 });
 formatter.result({
-  "duration": 5003442833,
+  "duration": 7244170834,
   "status": "passed"
 });
 formatter.match({
   "location": "PedidoSteps.eu_clicar_em_confirmar_pedido()"
 });
 formatter.result({
-  "duration": 5331618666,
+  "duration": 5456228334,
   "status": "passed"
 });
 formatter.match({
   "location": "PedidoSteps.devo_ser_redirecionado_para_tela_de_confirmação_de_pedido()"
 });
 formatter.result({
-  "duration": 651247958,
+  "duration": 208585709,
   "status": "passed"
 });
 });

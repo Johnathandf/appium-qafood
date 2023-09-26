@@ -6,11 +6,14 @@ import cucumber.api.java.Before;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.ios.IOSDriver;
+import io.appium.java_client.remote.MobileCapabilityType;
 import org.openqa.selenium.remote.DesiredCapabilities;
 
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
+
+import static org.openqa.selenium.remote.CapabilityType.PLATFORM_NAME;
 
 public class Hooks {
     ScreenPagamento pagamento = new ScreenPagamento();
@@ -26,24 +29,25 @@ public class Hooks {
         if(platform.equals("android")) {
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("app", "/Users/johnathanf/Documents/appium-qafood/apps/qafood.apk");
-            capabilities.setCapability("deviceName", "emulator-5554");
-            capabilities.setCapability("platformName", "Android");
-            driver = new AndroidDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+            capabilities.setCapability("appium:platformName", "Android");
+            capabilities.setCapability("appium:deviceName", "emulator-5554");
+            capabilities.setCapability("appium:app", "/Users/johnathanf/Documents/appium-qafood/apps/qafood.apk");
+            capabilities.setCapability("appium:automationName", "UiAutomator2");
+            driver = new AndroidDriver(new URL("http://localhost:4723/"), capabilities);
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         } else if (platform.equals("ios")) {
 
             DesiredCapabilities capabilities = new DesiredCapabilities();
-            capabilities.setCapability("app", "/Users/johnathanf/Documents/appium-qafood/apps/qazandoqafood.app");
-            capabilities.setCapability("deviceName", "iPhone 14 Pro");
-            capabilities.setCapability("platformName", "IOS");
-            capabilities.setCapability("platformVersion", "16.4");
-            capabilities.setCapability("automationName", "XCUITest");
-            capabilities.setCapability("udid", "9B72B42A-EA44-4A10-8B76-C09F11F58947");
-            capabilities.setCapability("resetkeyBoard", true);
-            capabilities.setCapability("unicodeKeyBoard", true);
-            driver = new IOSDriver(new URL("http://localhost:4723/wd/hub"), capabilities);
+            capabilities.setCapability("appium:app", "/Users/johnathanf/Documents/appium-qafood/apps/qazandoqafood.app");
+            capabilities.setCapability("appium:deviceName", "iPhone 15 Pro Max");
+            capabilities.setCapability("appium:platformName", "IOS");
+            capabilities.setCapability("appium:platformVersion", "17.0");
+            capabilities.setCapability("appium:automationName", "XCUITest");
+            capabilities.setCapability("appium:udid", "CBFF4773-9B3E-4B56-AE3D-2AD8ACF16B6C");
+            capabilities.setCapability("appium:resetkeyBoard", true);
+            capabilities.setCapability("appium:unicodeKeyBoard", true);
+            driver = new IOSDriver<>(new URL("http://localhost:4723/"), capabilities);
             driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
         } else if (platform.equals("devicefarm")) {

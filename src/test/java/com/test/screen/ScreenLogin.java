@@ -3,7 +3,6 @@ package com.test.screen;
 import com.test.Hooks;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import io.appium.java_client.pagefactory.iOSFindBy;
 import io.appium.java_client.pagefactory.iOSXCUITFindBy;
 
 import java.util.HashMap;
